@@ -3,7 +3,7 @@ orbs:
   # orbs contain basic recipes and reproducible actions (install node, aws, etc.)
   node: circleci/node@5.0.2
   aws-cli: circleci/aws-cli@3.1.1
-  eb: circleci/aws-elastic-beanstalk@3.20.3
+  eb: circleci/aws-elastic-beanstalk@2.0.1
   # different jobs are calles later in the workflows sections
 workflows:
   main:
