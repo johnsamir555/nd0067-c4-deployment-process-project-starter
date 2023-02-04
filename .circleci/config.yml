@@ -22,7 +22,7 @@ jobs:
     steps:
       - checkout
       - node/install
-        node-version:"14.15"
+          node-version:"14.15"
       - aws-cli/setup
       - eb/setup
       # Use root level package.json to install dependencies in the frontend app
